@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>Register</servlet-name>
+        <servlet-class>BlogsApp.Register</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Register</servlet-name>
+        <url-pattern>/Register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>BlogsApp.Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateBlogs</servlet-name>
+        <servlet-class>BlogsApp.CreateBlogs</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateBlogs</servlet-name>
+        <url-pattern>/CreateBlogs</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ListaBlog</servlet-name>
+        <servlet-class>BlogsApp.ListaBlog</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListaBlog</servlet-name>
+        <url-pattern>/ListaBlog</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ArticoleBlog</servlet-name>
+        <servlet-class>BlogsApp.ArticoleBlog</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ArticoleBlog</servlet-name>
+        <url-pattern>/ArticoleBlog</url-pattern>
+    </servlet-mapping>
+
+</web-app>
